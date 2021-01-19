@@ -1,0 +1,89 @@
+{
+  "name": "template_nodejs",
+  "version": "1.0.0",
+  "description": "Starter project repo for now nodejs projects",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "babel --config-file ./node_modules/package_config_babel/.babelrc src -d lib",
+    "build:node": "babel-node --config-file ./node_modules/package_config_babel/.babelrc",
+    "clean": "prettier --write --ignore-unknown --ignore-path .gitignore .",
+    "flow:check": "flow --flowconfig-name src/.flowconfig --quiet",
+    "flow:start": "flow status",
+    "flow:stop": "flow stop",
+    "img": "imagemin-lint-staged",
+    "lint": "eslint --fix --quiet --cache --ignore-path .gitignore .",
+    "stage": "lint-staged --quiet",
+    "test": "mocha --bail --check-leaks --exit --parallel --ignore-path .gitignore  --config ./node_modules/package_config_mocha/index.yml src/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keithboice/template_nodejs.git"
+  },
+  "author": "Keith Boice",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keithboice/template_nodejs/issues"
+  },
+  "homepage": "https://github.com/keithboice/template_nodejs#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/eslint-parser": "^7.12.1",
+    "@babel/eslint-plugin": "^7.12.1",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-flow": "^7.12.1",
+    "@babel/register": "^7.12.10",
+    "babel-eslint": "^10.1.0",
+    "chai": "^4.2.0",
+    "eslint": "^7.17.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-flowtype": "^5.2.0",
+    "flow-bin": "^0.142.0",
+    "flow-typed": "^3.2.1",
+    "husky": "^5.0.6",
+    "imagemin-lint-staged": "^0.4.0",
+    "lint-staged": "^10.5.3",
+    "mocha": "^8.2.1",
+    "nodemon": "^2.0.7",
+    "npm-run-all": "^4.1.5",
+    "package_config_babel": "^1.0.1",
+    "package_config_flow": "^1.0.2",
+    "package_config_mocha": "^1.0.2",
+    "package_config_prettier": "^1.0.3",
+    "pinst": "^2.1.1",
+    "prettier": "2.2.1"
+  },
+  "dependencies": {
+    "core-js": "^3.8.2",
+    "regenerator-runtime": "^0.13.7"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "prettier": "package_config_prettier",
+  "eslintConfig": {
+    "extends": [
+      "plugin:flowtype/recommended",
+      "prettier",
+      "prettier/babel",
+      "prettier/flowtype",
+      "prettier/prettier"
+    ],
+    "plugins": [
+      "@babel",
+      "flowtype"
+    ],
+    "env": {
+      "node": true,
+      "mocha": true
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx}": "run-s lint flow:check build test",
+    "*.{js,jsx,css,html,md}": "run-p clean",
+    "*.{png,jpeg,jpg,gif,svg}": "run-p img"
+  }
+}
