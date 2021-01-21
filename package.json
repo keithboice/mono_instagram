@@ -39,7 +39,7 @@
     "eslint": "^7.17.0",
     "eslint-config-prettier": "^7.1.0",
     "eslint-plugin-flowtype": "^5.2.0",
-    "flow-bin": "^0.142.0",
+    "flow-bin": "^0.143.0",
     "flow-typed": "^3.2.1",
     "husky": "^5.0.6",
     "imagemin-lint-staged": "^0.4.0",
