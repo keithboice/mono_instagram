@@ -5,13 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18b374a4-caa0-42cd-ab4c-c66b2b6586f5" name="Default Changelist" comment="added mocha shared config">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.flowconfig" beforeDir="false" afterPath="$PROJECT_DIR$/src/.flowconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/3/635d5bc042e6f8397487921099a6ee6713d05871" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/7030d0b2f71b999ff89a343de08c414af32fc93a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/8/a8a7a81ab4d6d49d6f2f41057a49003a5a2846c3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/6/c6a78c0b56988679a340760dc7e00f942308e857" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/d/cd1b871a40c54bf72404d94d847c8df0174e113d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/ec6464d2bb90310abf78ebba04e1098939442eb7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/e/eec47ac57bd68fc5f8f49655e2e9e7ad8d7bf2b8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.run/clean.run.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.run/start.run.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/bug_report.md" beforeDir="false" afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/bug_report.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/feature_request.md" beforeDir="false" afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/feature_request.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/tech-request.md" beforeDir="false" afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/tech-request.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/dependabot.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/dependabot.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/codeql-analysis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/codeql-analysis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/template_nodejs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/template_nodejs.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" beforeDir="false" afterPath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/index.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.flowconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.spec.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,13 +42,27 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript Function.js.child.0" />
+        <option value="JavaScript Function" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
   </component>
   <component name="JsBowerSettings">
     <node-interpreter value="project" />
     <bower-package value="" />
     <bower.json value="" />
+  </component>
+  <component name="JsFlowSettings">
+    <exe-path>$PROJECT_DIR$/node_modules/flow-bin</exe-path>
   </component>
   <component name="ProjectId" id="1nAmBDQ3qNJi4tjOAYdySRLo0kg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -40,11 +77,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.flowconfig.bk" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.8.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.21" />
+    <property name="js.last.introduce.type" value="CONST" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -58,49 +97,27 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/igPrivateApi" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.flow:check">
+  <component name="RunAnythingContextRecentDirectoryCache">
+    <option name="paths">
+      <recentPaths value="$PROJECT_DIR$/src/igPrivateApi" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.start">
     <configuration default="true" type="NodeJSConfigurationType">
       <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSProfilingRunConfigurationExtension">
         <profiling log-folder="/." />
       </EXTENSION>
-      <method v="2" />
-    </configuration>
-    <configuration name="[Local] index" type="aws.lambda" factoryName="Local" singleton="false" nameIsGenerated="true">
-      <option name="credentialProviderId" />
-      <option name="regionId" value="us-east-1" />
-      <option name="debugHost" value="localhost" />
-      <option name="environmentVariables">
-        <map />
-      </option>
-      <option name="handler" value="index" />
-      <option name="image" value="false" />
-      <option name="logicalFunctionName" />
-      <option name="memorySize" value="512" />
-      <option name="pathMappings">
-        <list />
-      </option>
-      <option name="platform" />
-      <option name="runtime" value="nodejs12.x" />
-      <option name="templateFile" />
-      <option name="timeout" value="300" />
-      <option name="useTemplate" value="false" />
-      <option name="input" value="{&#10;  &quot;Records&quot;: [&#10;&#9;{&#10;&#9;  &quot;eventID&quot;: &quot;1&quot;,&#10;&#9;  &quot;eventName&quot;: &quot;INSERT&quot;,&#10;&#9;  &quot;eventVersion&quot;: &quot;1.0&quot;,&#10;&#9;  &quot;eventSource&quot;: &quot;aws:dynamodb&quot;,&#10;&#9;  &quot;awsRegion&quot;: &quot;{region}&quot;,&#10;&#9;  &quot;dynamodb&quot;: {&#10;&#9;&#9;&quot;Keys&quot;: {&#10;&#9;&#9;  &quot;Id&quot;: {&#10;&#9;&#9;&#9;&quot;N&quot;: &quot;101&quot;&#10;&#9;&#9;  }&#10;&#9;&#9;},&#10;&#9;&#9;&quot;NewImage&quot;: {&#10;&#9;&#9;  &quot;Message&quot;: {&#10;&#9;&#9;&#9;&quot;S&quot;: &quot;New item!&quot;&#10;&#9;&#9;  },&#10;&#9;&#9;  &quot;Id&quot;: {&#10;&#9;&#9;&#9;&quot;N&quot;: &quot;101&quot;&#10;&#9;&#9;  }&#10;&#9;&#9;},&#10;&#9;&#9;&quot;SequenceNumber&quot;: &quot;111&quot;,&#10;&#9;&#9;&quot;SizeBytes&quot;: 26,&#10;&#9;&#9;&quot;StreamViewType&quot;: &quot;NEW_AND_OLD_IMAGES&quot;&#10;&#9;  },&#10;&#9;  &quot;eventSourceARN&quot;: &quot;arn:{partition}:dynamodb:{region}:account-id:table/ExampleTableWithStream/stream/2015-06-27T00:48:05.899&quot;&#10;&#9;},&#10;&#9;{&#10;&#9;  &quot;eventID&quot;: &quot;2&quot;,&#10;&#9;  &quot;eventName&quot;: &quot;MODIFY&quot;,&#10;&#9;  &quot;eventVersion&quot;: &quot;1.0&quot;,&#10;&#9;  &quot;eventSource&quot;: &quot;aws:dynamodb&quot;,&#10;&#9;  &quot;awsRegion&quot;: &quot;{region}&quot;,&#10;&#9;  &quot;dynamodb&quot;: {&#10;&#9;&#9;&quot;Keys&quot;: {&#10;&#9;&#9;  &quot;Id&quot;: {&#10;&#9;&#9;&#9;&quot;N&quot;: &quot;101&quot;&#10;&#9;&#9;  }&#10;&#9;&#9;},&#10;&#9;&#9;&quot;NewImage&quot;: {&#10;&#9;&#9;  &quot;Message&quot;: {&#10;&#9;&#9;&#9;&quot;S&quot;: &quot;This item has changed&quot;&#10;&#9;&#9;  },&#10;&#9;&#9;  &quot;Id&quot;: {&#10;&#9;&#9;&#9;&quot;N&quot;: &quot;101&quot;&#10;&#9;&#9;  }&#10;&#9;&#9;},&#10;&#9;&#9;&quot;OldImage&quot;: {&#10;&#9;&#9;  &quot;Message&quot;: {&#10;&#9;&#9;&#9;&quot;S&quot;: &quot;New item!&quot;&#10;&#9;&#9;  },&#10;&#9;&#9;  &quot;Id&quot;: {&#10;&#9;&#9;&#9;&quot;N&quot;: &quot;101&quot;&#10;&#9;&#9;  }&#10;&#9;&#9;},&#10;&#9;&#9;&quot;SequenceNumber&quot;: &quot;222&quot;,&#10;&#9;&#9;&quot;SizeBytes&quot;: 59,&#10;&#9;&#9;&quot;StreamViewType&quot;: &quot;NEW_AND_OLD_IMAGES&quot;&#10;&#9;  },&#10;&#9;  &quot;eventSourceARN&quot;: &quot;arn:{partition}:dynamodb:{region}:account-id:table/ExampleTableWithStream/stream/2015-06-27T00:48:05.899&quot;&#10;&#9;},&#10;&#9;{&#10;&#9;  &quot;eventID&quot;: &quot;3&quot;,&#10;&#9;  &quot;eventName&quot;: &quot;REMOVE&quot;,&#10;&#9;  &quot;eventVersion&quot;: &quot;1.0&quot;,&#10;&#9;  &quot;eventSource&quot;: &quot;aws:dynamodb&quot;,&#10;&#9;  &quot;awsRegion&quot;: &quot;{region}&quot;,&#10;&#9;  &quot;dynamodb&quot;: {&#10;&#9;&#9;&quot;Keys&quot;: {&#10;&#9;&#9;  &quot;Id&quot;: {&#10;&#9;&#9;&#9;&quot;N&quot;: &quot;101&quot;&#10;&#9;&#9;  }&#10;&#9;&#9;},&#10;&#9;&#9;&quot;OldImage&quot;: {&#10;&#9;&#9;  &quot;Message&quot;: {&#10;&#9;&#9;&#9;&quot;S&quot;: &quot;This item has changed&quot;&#10;&#9;&#9;  },&#10;&#9;&#9;  &quot;Id&quot;: {&#10;&#9;&#9;&#9;&quot;N&quot;: &quot;101&quot;&#10;&#9;&#9;  }&#10;&#9;&#9;},&#10;&#9;&#9;&quot;SequenceNumber&quot;: &quot;333&quot;,&#10;&#9;&#9;&quot;SizeBytes&quot;: 38,&#10;&#9;&#9;&quot;StreamViewType&quot;: &quot;NEW_AND_OLD_IMAGES&quot;&#10;&#9;  },&#10;&#9;  &quot;eventSourceARN&quot;: &quot;arn:{partition}:dynamodb:{region}:account-id:table/ExampleTableWithStream/stream/2015-06-27T00:48:05.899&quot;&#10;&#9;}&#10;  ]&#10;}" />
-      <option name="inputIsFile" value="false" />
-      <sam>
-        <option name="additionalBuildArgs" value="" />
-        <option name="additionalLocalArgs" value="" />
-        <option name="buildInContainer" value="false" />
-        <option name="dockerNetwork" value="" />
-        <option name="skipImagePull" value="false" />
-      </sam>
       <method v="2" />
     </configuration>
     <configuration default="true" type="aws.lambda" factoryName="Local">
@@ -133,56 +150,6 @@
       </sam>
       <method v="2" />
     </configuration>
-    <configuration name="flow:check" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="flow:check" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="img" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="img" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="lint" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="stage" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="stage" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="test" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="mocha-javascript-test-runner">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -194,13 +161,14 @@
       <test-pattern>*.spec.js</test-pattern>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Node.js.start" />
+      <item itemvalue="npm.clean" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.flow:check" />
-        <item itemvalue="npm.test" />
-        <item itemvalue="npm.stage" />
-        <item itemvalue="npm.lint" />
-        <item itemvalue="npm.img" />
+        <item itemvalue="npm.clean" />
+        <item itemvalue="Node.js.start" />
       </list>
     </recent_temporary>
   </component>

@@ -1,11 +1,12 @@
-"use strict";
+const expect = require('chai').expect;
+const igPrivateApi = require('./index.js');
 
-const assert = require("assert");
-
-describe("Array", function () {
-  describe("#indexOf()", function () {
-    it("should return -1 when the value is not present", function () {
-      assert.equal([1, 2, 3].indexOf(4), -1);
-    });
-  });
+describe('igPrivateApi', function () {
+	describe('igPrivateApi', function () {
+		it('should accept a igObj (Json) and return a response (Json)', function () {
+			igPrivateApi('Json').then((response) => {
+				expect(response).to.be.a('Json');
+			});
+		});
+	});
 });

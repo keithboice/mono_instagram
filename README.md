@@ -1,106 +1,48 @@
-# %ProjectName%
+# Instagram DM automation
 
-%ProjectDescription%
-
-## Overview
-
-[![Overview](https://keithboice.github.io/template_nodejs/template_nodejs-overview.svg)](https://app.diagrams.net/?mode=github#Hkeithboice%2Ftemplate_nodejs%2Fgh-pages%2Fdocs%2Ftemplate_nodejs-overview.drawio)
+The source code repository for Instagram DM automation.
 
 ## Getting Started
 
-%GettingStartedDescription%
-
-### %GettingStarted%
+### Install
 
 ```bash
-%GettingStartedCommand%
+% git clone git@github.com:keithboice/example_instagram_messages.git
 
-%GettingStartedCommandResponse%
+% cd example_instagram_messsages
+
+% npm install
 ```
 
-## Architecture
-
-### Cloud
-
-[![Cloud](https://keithboice.github.io/template_nodejs/template_nodejs-cloud.svg)](https://app.diagrams.net/?mode=github#Hkeithboice%2Ftemplate_nodejs%2Fgh-pages%2Fdocs%2Ftemplate_nodejs-cloud.svg)
-
-### Application
-
-[![Application](https://keithboice.github.io/template_nodejs/template_nodejs-application.svg)](https://app.diagrams.net/?mode=github#Hkeithboice%2Ftemplate_nodejs%2Fgh-pages%2Fdocs%2Ftemplate_nodejs-cloud.svg)
-
-#### Operations
-
-%OperationsDescription%
-
-| Name            | Type            | Use Case           | Request            | Response            | Scope            |
-| --------------- | --------------- | ------------------ | ------------------ | ------------------- | ---------------- |
-| %OperationName% | %OperationType% | %OperationUseCase% | %OperationRequest% | %OperationResponse% | %OperationScope% |
-
-#### Example
-
-```js
-// %OperationExample%
-```
-
-## DevOps
-
-### Environments
-
-| STAGE | URL           | STAGE | URL           | STAGE | URL            |
-| ----- | ------------- | ----- | ------------- | ----- | -------------- |
-| dev   | %StageDevURL% | stage | %StageDevURL% | prod  | %StageProdURL% |
-
-<br />
-<br />
-<br />
-
-# Snippets
-
-Here are some github md examples to copy and paste when needed.
-
-# Header 1
-
-## Header 2
-
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](http://www.foo.com)
-
-> blockquote or note
-
-![Screenshot](https://via.placeholder.com/400x90.png?text=Embed+Image)
-
-#### Diagram
-
-**_[See this link to create new diagrams](https://desk.draw.io/support/solutions/articles/16000042371-embed-a-diagram-in-github-markdown)_**
-
-![Diagram](https://keithboice.github.io/template_nodejs/template_nodejs.svg)
-
-[fullscreen](https://www.draw.io/?lightbox=1#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fwiki%2Fjgraph%2Fdraw.io%2Fimages%2Fschema.png) |
-[template](https://www.draw.io/?#Uhttps%3A%2F%2Fraw.githubusercontent.com%2Fwiki%2Fjgraph%2Fdraw.io%2Fimages%2Fschema.png) |
-[edit](https://www.draw.io/#Hjgraph%2Fdrawio-diagrams%2Fmaster%2Fdiagrams%2Fschema.xml)
-
-**Install**:
+### Develop
 
 ```bash
-back example
+% npm run dev
 ```
 
-```jsonc
-{
-  // ...
-  "example": "json"
-}
+### Test
+
+```bash
+% npm run test
 ```
 
-```js
-this.is = "a javascript example";
+### Production
+
+```bash
+% npm run start
 ```
+
+## Reference
+
+| Doc             | Link                                                                                   |
+| --------------- | -------------------------------------------------------------------------------------- |
+| Api Docs        | https://keithboice.github.io/example_instagram_messsages/                              |
+| Wiki            | https://github.com/keithboice/example_instagram_messsages/wiki                         |
+| Contributing    | https://github.com/keithboice/example_instagram_messsages/blob/main/CONTRIBUTING.md    |
+| Code of Conduct | https://github.com/keithboice/example_instagram_messsages/blob/main/CODE_OF_CONDUCT.md |
+| License (MIT)   | https://github.com/keithboice/example_instagram_messsages/blob/main/LICENSE            |
+| Read Me         | https://github.com/keithboice/example_instagram_messsages/blob/main/README.md          |
+
+<br />
+<br />
+<br />

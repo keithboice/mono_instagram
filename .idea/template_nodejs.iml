@@ -8,5 +8,12 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="NodeJS" level="application" />
+    <orderEntry type="library" name="@types/node" level="application" />
+    <orderEntry type="library" name="@types/babel__preset-env" level="application" />
+    <orderEntry type="library" name="@types/babel-core" level="application" />
+    <orderEntry type="library" name="@types/prettier" level="application" />
+    <orderEntry type="library" name="@types/eslint-config-prettier" level="application" />
+    <orderEntry type="library" name="@types/eslint-plugin-prettier" level="application" />
   </component>
 </module>
