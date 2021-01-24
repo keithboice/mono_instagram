@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="start" type="NodeJSConfigurationType" singleton="false" path-to-js-file="src/index.js" working-dir="$PROJECT_DIR$">
+  <configuration default="false" name="start" type="NodeJSConfigurationType" singleton="false" path-to-js-file="$PROJECT_DIR$/src/ig-direct-messages/index.js" working-dir="$PROJECT_DIR$">
     <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSProfilingRunConfigurationExtension">
       <profiling log-folder="../../../../../../../." />
     </EXTENSION>

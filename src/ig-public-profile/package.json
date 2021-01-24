@@ -3,7 +3,7 @@
 	"bugs": {
 		"url": "https://github.com/keithboice/mono_instagram/issues"
 	},
-	"description": "Instagram dm automation",
+	"description": "Instagram public profile scrape utility",
 	"devDependencies": {
 		"chai": "^4.2.0",
 		"eslint": "^7.17.0",
@@ -39,8 +39,8 @@
 	"lint-staged": {
 		"*.{js,jsx}": "run-s lint clean test"
 	},
-	"main": "index.js",
-	"name": "mono_instagram",
+	"main": "src/index.js",
+	"name": "ig-public-profile",
 	"nodemonConfig": {
 		"ignore": [
 			".github",
